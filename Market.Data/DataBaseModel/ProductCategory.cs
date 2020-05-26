@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Market.Data.DataBaseModel
 {
-    class ProductCategory
+    public class ProductCategory
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int ParentId { get; set; }
+        public int? ParentId { get; set; } 
     }
 }
